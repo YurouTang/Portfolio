@@ -1,0 +1,72 @@
+.top-buffer { 
+	margin-top:50px; 
+}
+
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.light-blue {
+	background-color: #E0FAFA;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: orange;
+}
+
+h3::before {
+	content:"\2016 > ";
+	font-weight: bold;
+}
+
+input[type=text] {
+	background-color: pink;
+}
+
+
+@media (min-width: 500px) {
+	#web {
+		background-color: #FAE3FA;
+	}
+
+	#python {
+
+	}
+
+	#java {
+
+	}
+
+	#nlp {
+
+	}
+
+}
+
+@media (max-width: 499px) {
+	#web {
+		background-color: #FAE3FA;
+	}
+
+	#python {
+
+	}
+
+	#java {
+
+	}
+
+	#nlp {
+
+	}
+
+}

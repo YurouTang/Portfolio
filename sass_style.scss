@@ -1,0 +1,98 @@
+$blue-color: #E0FAFA;
+
+
+.top-buffer { 
+	margin-top:50px; 
+}
+
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.light-blue {
+	background-color: blue-color;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: orange;
+}
+
+h3::before {
+	content:"\2016 > ";
+	font-weight: bold;
+}
+
+input[type=text] {
+	background-color: pink;
+}
+
+
+@media (min-width: 500px) {
+	#web {
+		background-color: #FAE3FA;
+	}
+
+	#python {
+		background-color: Lavender;
+	}
+
+	#java {
+		background-color: LightCyan;
+	}
+
+	#others {
+		background-color: Linen;
+	}
+
+}
+
+@media (max-width: 499px) {
+	#web {
+		background-color: MintCream;
+	}
+
+	#python {
+		background-color: LavenderBlush;
+	}
+
+	#java {
+		background-color: HoneyDew;
+	}
+
+	#others {
+		background-color: Azure;
+	}
+
+}
+
+
+div {
+	p {
+		color: DimGray;
+	}
+}
+
+
+%notes {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.note-1 {
+	@extend %notes;
+	color: DarkMagenta;
+}
+
+.note-2 {
+	@extend %notes;
+	color:MidnightBlue;
+}
